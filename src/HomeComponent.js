@@ -51,12 +51,18 @@ export default function HomeComponent() {
 
   return (
     <div>
-      <Container className="headerContainer">
-        <img
-          alt="simpsons logo"
-          src="./The_logo_simpsons_yellow.svg"
-          className="logoImg"
-        />
+      <Container fluid className="headerContainer">
+        <Row>
+          <Col></Col>
+          <Col md={4}>
+            <img
+              alt="simpsons logo"
+              src="./The_logo_simpsons_yellow.svg"
+              className="logoImg"
+            />
+          </Col>
+          <Col></Col>
+        </Row>
         <h4>Random Quote Generator</h4>
       </Container>
       <h4 className="mt-5">Number of quotes</h4>

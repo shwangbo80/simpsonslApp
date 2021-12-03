@@ -3,7 +3,7 @@
 }
 
 .headerContainer {
-  width: 400px;
+  /* width: 400px; */
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -13,7 +13,7 @@
 }
 
 .logoImg {
-  width: 400px;
+  width: 100%;
   margin-top: 100px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .charName {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .quoteContainer {
